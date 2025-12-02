@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import {
   Home, Phone, ChevronRight, Search, X, Smartphone, Lock,
   ArrowLeft, MessageCircle, Youtube, Loader2
@@ -42,7 +42,7 @@ const App = () => {
           </div>
           <h1 className="text-2xl font-extrabold text-gray-800 mb-2">Desbloqueio Especializado</h1>
           <p className="text-gray-500 mb-10 max-w-xs font-medium">
-            PayJoy  Conta Google  Senhas <br /> Serviço rápido e garantido.
+            PayJoy • Conta Google • Senhas <br /> Serviço rápido e garantido.
           </p>
           <div className="space-y-4 w-full max-w-sm">
             <button
@@ -198,7 +198,7 @@ const App = () => {
 
         {selectedService && (
           <div className="absolute inset-0 z-50 flex items-end sm:items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in">
-            <div className="bg-white w-full sm:w-11/12 sm:max-w-md sm:rounded-2xl rounded-t-3xl p-6 shadow-2xl animate-slide-up">
+            <div className="bg-white w-full sm:w-11/12 sm:max-w-md sm:rounded-2xl rounded-t-3xl p-6 shadow-2xl animate-slide-up overflow-y-auto max-h-[80vh]">
               <div className="flex justify-between items-start mb-4">
                 <div className="bg-indigo-50 p-3 rounded-xl text-indigo-600"><Smartphone size={24} /></div>
                 <button onClick={() => setSelectedService(null)} className="p-2 bg-gray-100 rounded-full hover:bg-gray-200"><X size={20} /></button>
