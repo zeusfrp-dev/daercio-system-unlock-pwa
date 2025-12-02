@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/daercio-system-unlock-pwa/static/js/main.2e13ec0a.js",
-    "index.html": "/daercio-system-unlock-pwa/index.html",
-    "main.2e13ec0a.js.map": "/daercio-system-unlock-pwa/static/js/main.2e13ec0a.js.map"
+    "main.js": "./static/js/main.2e13ec0a.js",
+    "index.html": "./index.html",
+    "main.2e13ec0a.js.map": "./static/js/main.2e13ec0a.js.map"
   },
   "entrypoints": [
     "static/js/main.2e13ec0a.js"
