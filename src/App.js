@@ -116,6 +116,11 @@ const App = () => {
           </div>
         )}
 
+        {/* Frase visível imediatamente */}
+        <div className="bg-yellow-100 text-yellow-800 p-3 rounded-xl mb-5 text-sm font-medium text-center border border-yellow-300 shadow-sm">
+          👉 Deslize para cima para ver o botão de contato.
+        </div>
+
         <div className="space-y-3 px-2">
           {deviceList.map((item) => (
             <div
@@ -206,8 +211,6 @@ const App = () => {
               <h3 className="text-2xl font-bold text-gray-800 mb-2">{selectedService.title}</h3>
               <p className="text-gray-500 mb-4 leading-relaxed text-sm">{selectedService.description}</p>
               
-              <p className="text-center text-xs text-gray-500 italic mb-4">👉 Deslize para cima para ver o botão de contato.</p>
-
               <div className="border-t border-gray-100 pt-6">
                 <div className="flex justify-between items-center mb-4">
                   <span className="text-sm text-gray-500 uppercase font-bold">Valor do Serviço</span>
