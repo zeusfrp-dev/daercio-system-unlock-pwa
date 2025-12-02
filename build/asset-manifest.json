@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/daercio-system-unlock-pwa/static/js/main.fedd415b.js",
+    "main.js": "/daercio-system-unlock-pwa/static/js/main.615c8ff9.js",
     "index.html": "/daercio-system-unlock-pwa/index.html",
-    "main.fedd415b.js.map": "/daercio-system-unlock-pwa/static/js/main.fedd415b.js.map"
+    "main.615c8ff9.js.map": "/daercio-system-unlock-pwa/static/js/main.615c8ff9.js.map"
   },
   "entrypoints": [
-    "static/js/main.fedd415b.js"
+    "static/js/main.615c8ff9.js"
   ]
 }

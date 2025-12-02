@@ -198,13 +198,16 @@ const App = () => {
 
         {selectedService && (
           <div className="absolute inset-0 z-50 flex items-end sm:items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in">
-            <div className="bg-white w-full sm:w-11/12 sm:max-w-md sm:rounded-2xl rounded-t-3xl p-6 shadow-2xl animate-slide-up overflow-y-auto max-h-[80vh]">
+            <div className="bg-white w-full sm:w-11/12 sm:max-w-md sm:rounded-2xl rounded-t-3xl p-6 shadow-2xl animate-slide-up">
               <div className="flex justify-between items-start mb-4">
                 <div className="bg-indigo-50 p-3 rounded-xl text-indigo-600"><Smartphone size={24} /></div>
                 <button onClick={() => setSelectedService(null)} className="p-2 bg-gray-100 rounded-full hover:bg-gray-200"><X size={20} /></button>
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-2">{selectedService.title}</h3>
-              <p className="text-gray-500 mb-6 leading-relaxed text-sm">{selectedService.description}</p>
+              <p className="text-gray-500 mb-4 leading-relaxed text-sm">{selectedService.description}</p>
+              
+              <p className="text-center text-xs text-gray-500 italic mb-4">👉 Role para cima para ver o botão de contato.</p>
+
               <div className="border-t border-gray-100 pt-6">
                 <div className="flex justify-between items-center mb-4">
                   <span className="text-sm text-gray-500 uppercase font-bold">Valor do Serviço</span>
