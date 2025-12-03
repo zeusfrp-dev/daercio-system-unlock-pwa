@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import {
   Home, Phone, ChevronRight, Search, X, Smartphone, Lock,
   ArrowLeft, MessageCircle, Youtube, Loader2
@@ -6,19 +6,19 @@ import {
 
 const App = () => {
   const [oldDevices] = useState([
-    { id: 'samsung_antigo_frp', title: 'Samsung Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'Remoção de Conta Google (FRP) em modelos Samsung mais antigos (J-series, A0x). Serviço rápido e preço promocional.', brand: 'Samsung', deviceType: 'old' },
-    { id: 'motorola_antigo_frp', title: 'Motorola Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'Remoção de Conta Google (FRP) em modelos Motorola mais antigos (Moto G/E).', brand: 'Motorola', deviceType: 'old' },
-    { id: 'lg_antigo_frp', title: 'LG Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'Remoção de Conta Google (FRP) em modelos LG antigos.', brand: 'LG', deviceType: 'old' },
+    { id: 'samsung_antigo_frp', title: 'Samsung Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃ§Ã£o de Conta Google (FRP) em modelos Samsung mais antigos (J-series, A0x). ServiÃ§o rÃ¡pido e preÃ§o promocional.', brand: 'Samsung', deviceType: 'old' },
+    { id: 'motorola_antigo_frp', title: 'Motorola Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃ§Ã£o de Conta Google (FRP) em modelos Motorola mais antigos (Moto G/E).', brand: 'Motorola', deviceType: 'old' },
+    { id: 'lg_antigo_frp', title: 'LG Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃ§Ã£o de Conta Google (FRP) em modelos LG antigos.', brand: 'LG', deviceType: 'old' },
   ]);
 
   const [newDevices] = useState([
-    { id: 'samsung_moderno_v2', title: 'Samsung - PayJoy/Google (Moderno)', price: 'R$ 300,00', description: 'Desbloqueio de bloqueio PayJoy e remoção de Conta Google (FRP) em modelos Samsung mais recentes (incluindo Android 14/15). Preço fixo: R$ 300,00.', brand: 'Samsung', deviceType: 'new' },
+    { id: 'samsung_moderno_v2', title: 'Samsung - PayJoy/Google (Moderno)', price: 'R$ 300,00', description: 'Desbloqueio de bloqueio PayJoy e remoÃ§Ã£o de Conta Google (FRP) em modelos Samsung mais recentes (incluindo Android 14/15). PreÃ§o fixo: R$ 300,00.', brand: 'Samsung', deviceType: 'new' },
     { id: 'motorola_moderno_v2', title: 'Motorola - PayJoy/Google (A14/A15)', price: 'A partir de R$ 100,00', description: 'Desbloqueio de PayJoy e Conta Google (FRP) em modelos Motorola recentes. **Conta Google A14: R$ 100,00**. **PayJoy A15: R$ 300,00**. **Conta Google A15: R$ 300,00**.', brand: 'Motorola', deviceType: 'new' },
-    { id: 'tecno_infinix_moderno', title: 'Tecno / Infinix - Bloqueios Diversos', price: 'R$ 180,00', description: 'Serviços de desbloqueio para Tecno e Infinix. Preços variáveis: R$ 180,00 (bloqueio complexo) / R$ 100,00 (bloqueio simples). Consulte para confirmar o valor exato.', brand: 'Tecno', deviceType: 'new' },
+    { id: 'tecno_infinix_moderno', title: 'Tecno / Infinix - Bloqueios Diversos', price: 'R$ 180,00', description: 'ServiÃ§os de desbloqueio para Tecno e Infinix. PreÃ§os variÃ¡veis: R$ 180,00 (bloqueio complexo) / R$ 100,00 (bloqueio simples). Consulte para confirmar o valor exato.', brand: 'Tecno', deviceType: 'new' },
     { id: 'realme_c75', title: 'Realme C75 (A14/A15) - PayJoy/Google', price: 'A partir de R$ 200,00', description: 'Desbloqueio do modelo Realme C75. **Android 14 (PayJoy/Google): R$ 200,00**. **Android 15 (Conta Google): R$ 200,00**. **Android 15 (PayJoy): R$ 260,00**.', brand: 'Realme', deviceType: 'new' },
     { id: 'realme_c67', title: 'Realme C67 (A14/A15) - PayJoy/Google', price: 'A partir de R$ 200,00', description: 'Desbloqueio do modelo Realme C67. **Android 14 (PayJoy/Google): R$ 200,00**. **Android 15 (Conta Google): R$ 200,00**. **Android 15 (PayJoy): R$ 260,00**.', brand: 'Realme', deviceType: 'new' },
     { id: 'realme_c65', title: 'Realme C65 (A14/A15) - PayJoy/Google', price: 'A partir de R$ 150,00', description: 'Desbloqueio do modelo Realme C65. **Android 14 (PayJoy): R$ 200,00**. **Android 15 (Conta Google): R$ 150,00**.', brand: 'Realme', deviceType: 'new' },
-    { id: 'realme_c71_etc', title: 'Realme C71, N50, C63, C61 - PayJoy/Google', price: 'A partir de R$ 100,00', description: 'Modelos C71, Note 50, C63, C61 (Preços fixos). **PayJoy: R$ 180,00**. **Conta Google (FRP): R$ 100,00**.', brand: 'Realme', deviceType: 'new' },
+    { id: 'realme_c71_etc', title: 'Realme C71, N50, C63, C61 - PayJoy/Google', price: 'A partir de R$ 100,00', description: 'Modelos C71, Note 50, C63, C61 (PreÃ§os fixos). **PayJoy: R$ 180,00**. **Conta Google (FRP): R$ 100,00**.', brand: 'Realme', deviceType: 'new' },
   ]);
 
   const [activeTab, setActiveTab] = useState('home');
@@ -28,7 +28,7 @@ const App = () => {
 
   const openWhatsApp = (serviceName, price) => {
     const cleanNumber = myNumber.replace(/\D/g, '');
-    const message = `Olá! Gostaria de fazer o serviço: ${serviceName} por ${price}. Podem me chamar?`;
+    const message = `OlÃ¡! Gostaria de fazer o serviÃ§o: ${serviceName} por ${price}. Podem me chamar?`;
     const url = `https://wa.me/${cleanNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -42,20 +42,20 @@ const App = () => {
           </div>
           <h1 className="text-2xl font-extrabold text-gray-800 mb-2">Desbloqueio Especializado</h1>
           <p className="text-gray-500 mb-10 max-w-xs font-medium">
-            PayJoy  Conta Google  Senhas <br /> Serviço rápido e garantido.
+            PayJoy  Conta Google  Senhas <br /> ServiÃ§o rÃ¡pido e garantido.
           </p>
           <div className="space-y-4 w-full max-w-sm">
             <button
               onClick={() => setFlowStep('type-select')}
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-xl shadow-blue-300 transform transition-transform active:scale-95 flex items-center justify-center gap-2"
             >
-              <Search size={20} /> <span>Verificar Modelo e Preço</span>
+              <Search size={20} /> <span>Verificar Modelo e PreÃ§o</span>
             </button>
             <button
-              onClick={() => openWhatsApp('Melhores Preços/Consultas', 'Combinar')}
+              onClick={() => openWhatsApp('Melhores PreÃ§os/Consultas', 'Combinar')}
               className="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-bold py-3 px-6 rounded-xl shadow-lg transition-colors active:scale-95 flex items-center justify-center gap-2"
             >
-              <span>Para melhores preços, toque aqui!</span>
+              <span>Para melhores preÃ§os, toque aqui!</span>
             </button>
           </div>
         </div>
@@ -75,7 +75,7 @@ const App = () => {
                 <div className="bg-orange-100 p-3 rounded-xl text-orange-600"><Smartphone size={24} /></div>
                 <div className="text-left">
                   <h3 className="font-bold text-gray-800">Aparelhos Antigos ({oldDevices.length} itens)</h3>
-                  <p className="text-sm text-gray-500">Modelos mais simples e econômicos</p>
+                  <p className="text-sm text-gray-500">Modelos mais simples e econÃ´micos</p>
                 </div>
               </div>
               <ChevronRight className="text-gray-400 group-hover:text-blue-500" />
@@ -85,7 +85,7 @@ const App = () => {
                 <div className="bg-purple-100 p-3 rounded-xl text-purple-600"><Smartphone size={24} /></div>
                 <div className="text-left">
                   <h3 className="font-bold text-gray-800">Aparelhos Modernos ({newDevices.length} itens)</h3>
-                  <p className="text-sm text-gray-500">Lançamentos recentes, com preços fixos</p>
+                  <p className="text-sm text-gray-500">LanÃ§amentos recentes, com preÃ§os fixos</p>
                 </div>
               </div>
               <ChevronRight className="text-gray-400 group-hover:text-blue-500" />
@@ -107,12 +107,12 @@ const App = () => {
 
         {flowStep === 'list-old' && (
           <div className="bg-green-50 text-green-700 p-3 rounded-xl mb-5 text-sm font-medium text-center border border-green-200 shadow-sm">
-            Lista de aparelhos mais antigos com preços promocionais.
+            Lista de aparelhos mais antigos com preÃ§os promocionais.
           </div>
         )}
         {flowStep === 'list-new' && (
           <div className="bg-blue-50 text-blue-700 p-3 rounded-xl mb-5 text-sm font-medium text-center border border-blue-200 shadow-sm">
-            Muitos preços são fixos. Clique para ver detalhes e entrar em contato.
+            Muitos preÃ§os sÃ£o fixos. Clique para ver detalhes e entrar em contato.
           </div>
         )}
 
@@ -147,10 +147,10 @@ const App = () => {
           <MessageCircle size={40} />
         </div>
         <h2 className="text-2xl font-bold text-gray-800">Fale Comigo Agora</h2>
-        <p className="text-gray-500 mt-2">Dúvidas? Orçamentos especiais? <br /> Estou online para te atender.</p>
+        <p className="text-gray-500 mt-2">DÃºvidas? OrÃ§amentos especiais? <br /> Estou online para te atender.</p>
       </div>
       <button
-        onClick={() => openWhatsApp('Atendimento Geral', 'Orçamento')}
+        onClick={() => openWhatsApp('Atendimento Geral', 'OrÃ§amento')}
         className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-xl shadow-2xl shadow-green-300 transition-all flex items-center justify-center gap-2 active:scale-[0.98]"
       >
         <Phone size={24} /> <span>(81) 99715-8496</span>
@@ -166,8 +166,8 @@ const App = () => {
           <div className="bg-red-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 text-red-600">
             <Youtube size={40} />
           </div>
-          <h2 className="text-2xl font-bold text-gray-800">Conheça Meu Trabalho</h2>
-          <p className="text-gray-500 mt-2">Visite meu canal no YouTube para ver vídeos dos serviços realizados e garantir sua confiança.</p>
+          <h2 className="text-2xl font-bold text-gray-800">ConheÃ§a Meu Trabalho</h2>
+          <p className="text-gray-500 mt-2">Visite meu canal no YouTube para ver vÃ­deos dos serviÃ§os realizados e garantir sua confianÃ§a.</p>
         </div>
         <a
           href={youtubeUrl}
@@ -207,7 +207,7 @@ const App = () => {
               <p className="text-gray-500 mb-6 leading-relaxed text-sm">{selectedService.description}</p>
               <div className="border-t border-gray-100 pt-6">
                 <div className="flex justify-between items-center mb-4">
-                  <span className="text-sm text-gray-500 uppercase font-bold">Valor do Serviço</span>
+                  <span className="text-sm text-gray-500 uppercase font-bold">Valor do ServiÃ§o</span>
                   <span className="text-3xl font-bold text-green-600">{selectedService.price}</span>
                 </div>
                 <button
@@ -215,9 +215,9 @@ const App = () => {
                   className="w-full bg-green-600 text-white px-6 py-4 rounded-xl font-bold hover:bg-green-700 transition-colors flex items-center justify-center gap-2 shadow-xl shadow-green-300 active:scale-[0.98]"
                 >
                   <MessageCircle size={24} />
-                  <span>{selectedService.price.includes('Consultar') || selectedService.price.includes('Chamar') ? 'Solicitar Orçamento' : 'Fazer esse desbloqueio'}</span>
+                  <span>{selectedService.price.includes('Consultar') || selectedService.price.includes('Chamar') ? 'Solicitar OrÃ§amento' : 'Fazer esse desbloqueio'}</span>
                 </button>
-                <p className="text-center text-xs text-gray-400 mt-3">Você será redirecionado para o WhatsApp</p>
+                <p className="text-center text-xs text-gray-400 mt-3">VocÃª serÃ¡ redirecionado para o WhatsApp</p>
               </div>
             </div>
           </div>
@@ -230,14 +230,14 @@ const App = () => {
               className={`flex flex-col items-center space-y-1 ${activeTab === 'home' ? 'text-blue-600' : 'text-gray-400'}`}
             >
               <Home size={24} strokeWidth={activeTab === 'home' ? 2.5 : 2} />
-              <span className="text-xs font-medium">Início</span>
+              <span className="text-xs font-medium">InÃ­cio</span>
             </button>
             <button
               onClick={() => setActiveTab('youtube')}
               className={`flex flex-col items-center space-y-1 ${activeTab === 'youtube' ? 'text-blue-600' : 'text-gray-400'}`}
             >
               <Youtube size={24} strokeWidth={activeTab === 'youtube' ? 2.5 : 2} />
-              <span className="text-xs font-medium">Vídeos dos meus serviços</span>
+              <span className="text-xs font-medium">VÃ­deos dos meus serviÃ§os</span>
             </button>
             <button
               onClick={() => setActiveTab('contato')}
