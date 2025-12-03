@@ -6,19 +6,19 @@ import {
 
 const App = () => {
   const [oldDevices] = useState([
-    { id: 'samsung_antigo_frp', title: 'Samsung Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o de Conta Google (FRP) em modelos Samsung mais antigos (J-series, A0x). ServiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§o rÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡pido e preÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§o promocional.', brand: 'Samsung', deviceType: 'old' },
-    { id: 'motorola_antigo_frp', title: 'Motorola Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o de Conta Google (FRP) em modelos Motorola mais antigos (Moto G/E).', brand: 'Motorola', deviceType: 'old' },
-    { id: 'lg_antigo_frp', title: 'LG Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o de Conta Google (FRP) em modelos LG antigos.', brand: 'LG', deviceType: 'old' },
+    { id: 'samsung_antigo_frp', title: 'Samsung Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£o de Conta Google (FRP) em modelos Samsung mais antigos (J-series, A0x). ServiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§o rÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡pido e preÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§o promocional.', brand: 'Samsung', deviceType: 'old' },
+    { id: 'motorola_antigo_frp', title: 'Motorola Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£o de Conta Google (FRP) em modelos Motorola mais antigos (Moto G/E).', brand: 'Motorola', deviceType: 'old' },
+    { id: 'lg_antigo_frp', title: 'LG Antigo - Conta Google (FRP)', price: 'R$ 20,00', description: 'RemoÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£o de Conta Google (FRP) em modelos LG antigos.', brand: 'LG', deviceType: 'old' },
   ]);
 
   const [newDevices] = useState([
-    { id: 'samsung_moderno_v2', title: 'Samsung - PayJoy/Google (Moderno)', price: 'R$ 300,00', description: 'Desbloqueio de bloqueio PayJoy e remoÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o de Conta Google (FRP) em modelos Samsung mais recentes (incluindo Android 14/15). PreÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§o fixo: R$ 300,00.', brand: 'Samsung', deviceType: 'new' },
+    { id: 'samsung_moderno_v2', title: 'Samsung - PayJoy/Google (Moderno)', price: 'R$ 300,00', description: 'Desbloqueio de bloqueio PayJoy e remoÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£o de Conta Google (FRP) em modelos Samsung mais recentes (incluindo Android 14/15). PreÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§o fixo: R$ 300,00.', brand: 'Samsung', deviceType: 'new' },
     { id: 'motorola_moderno_v2', title: 'Motorola - PayJoy/Google (A14/A15)', price: 'A partir de R$ 100,00', description: 'Desbloqueio de PayJoy e Conta Google (FRP) em modelos Motorola recentes. **Conta Google A14: R$ 100,00**. **PayJoy A15: R$ 300,00**. **Conta Google A15: R$ 300,00**.', brand: 'Motorola', deviceType: 'new' },
-    { id: 'tecno_infinix_moderno', title: 'Tecno / Infinix - Bloqueios Diversos', price: 'R$ 180,00', description: 'ServiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os de desbloqueio para Tecno e Infinix. PreÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os variÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡veis: R$ 180,00 (bloqueio complexo) / R$ 100,00 (bloqueio simples). Consulte para confirmar o valor exato.', brand: 'Tecno', deviceType: 'new' },
+    { id: 'tecno_infinix_moderno', title: 'Tecno / Infinix - Bloqueios Diversos', price: 'R$ 180,00', description: 'ServiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os de desbloqueio para Tecno e Infinix. PreÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os variÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡veis: R$ 180,00 (bloqueio complexo) / R$ 100,00 (bloqueio simples). Consulte para confirmar o valor exato.', brand: 'Tecno', deviceType: 'new' },
     { id: 'realme_c75', title: 'Realme C75 (A14/A15) - PayJoy/Google', price: 'A partir de R$ 200,00', description: 'Desbloqueio do modelo Realme C75. **Android 14 (PayJoy/Google): R$ 200,00**. **Android 15 (Conta Google): R$ 200,00**. **Android 15 (PayJoy): R$ 260,00**.', brand: 'Realme', deviceType: 'new' },
     { id: 'realme_c67', title: 'Realme C67 (A14/A15) - PayJoy/Google', price: 'A partir de R$ 200,00', description: 'Desbloqueio do modelo Realme C67. **Android 14 (PayJoy/Google): R$ 200,00**. **Android 15 (Conta Google): R$ 200,00**. **Android 15 (PayJoy): R$ 260,00**.', brand: 'Realme', deviceType: 'new' },
     { id: 'realme_c65', title: 'Realme C65 (A14/A15) - PayJoy/Google', price: 'A partir de R$ 150,00', description: 'Desbloqueio do modelo Realme C65. **Android 14 (PayJoy): R$ 200,00**. **Android 15 (Conta Google): R$ 150,00**.', brand: 'Realme', deviceType: 'new' },
-    { id: 'realme_c71_etc', title: 'Realme C71, N50, C63, C61 - PayJoy/Google', price: 'A partir de R$ 100,00', description: 'Modelos C71, Note 50, C63, C61 (PreÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os fixos). **PayJoy: R$ 180,00**. **Conta Google (FRP): R$ 100,00**.', brand: 'Realme', deviceType: 'new' },
+    { id: 'realme_c71_etc', title: 'Realme C71, N50, C63, C61 - PayJoy/Google', price: 'A partir de R$ 100,00', description: 'Modelos C71, Note 50, C63, C61 (PreÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os fixos). **PayJoy: R$ 180,00**. **Conta Google (FRP): R$ 100,00**.', brand: 'Realme', deviceType: 'new' },
   ]);
 
   const [activeTab, setActiveTab] = useState('home');
@@ -28,7 +28,7 @@ const App = () => {
 
   const openWhatsApp = (serviceName, price) => {
     const cleanNumber = myNumber.replace(/\D/g, '');
-    const message = `OlÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡! Gostaria de fazer o serviÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§o: ${serviceName} por ${price}. Podem me chamar?`;
+    const message = `OlÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡! Gostaria de fazer o serviÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§o: ${serviceName} por ${price}. Podem me chamar?`;
     const url = `https://wa.me/${cleanNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -43,9 +43,9 @@ const App = () => {
           <h1 className="text-2xl font-extrabold text-gray-800 mb-2">Desbloqueio Especializado</h1>
           <p className="text-gray-500 mb-10 max-w-xs font-medium">
 <<<<<<< HEAD
-            PayJoy  Conta Google  Senhas <br /> ServiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§o rÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡pido e garantido.
+            PayJoy  Conta Google  Senhas <br /> ServiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§o rÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡pido e garantido.
 =======
-            PayJoy ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Conta Google ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Senhas <br /> ServiÃƒÆ’Ã‚Â§o rÃƒÆ’Ã‚Â¡pido e garantido.
+            PayJoy ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Conta Google ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Senhas <br /> ServiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§o rÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡pido e garantido.
 >>>>>>> c35ef5e176dd9be1eba798a3e96c50140439fc1b
           </p>
           <div className="space-y-4 w-full max-w-sm">
@@ -53,13 +53,13 @@ const App = () => {
               onClick={() => setFlowStep('type-select')}
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-xl shadow-blue-300 transform transition-transform active:scale-95 flex items-center justify-center gap-2"
             >
-              <Search size={20} /> <span>Verificar Modelo e PreÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§o</span>
+              <Search size={20} /> <span>Verificar Modelo e PreÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§o</span>
             </button>
             <button
-              onClick={() => openWhatsApp('Melhores PreÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os/Consultas', 'Combinar')}
+              onClick={() => openWhatsApp('Melhores PreÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os/Consultas', 'Combinar')}
               className="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-bold py-3 px-6 rounded-xl shadow-lg transition-colors active:scale-95 flex items-center justify-center gap-2"
             >
-              <span>Para melhores preÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os, toque aqui!</span>
+              <span>Para melhores preÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os, toque aqui!</span>
             </button>
           </div>
         </div>
@@ -79,7 +79,7 @@ const App = () => {
                 <div className="bg-orange-100 p-3 rounded-xl text-orange-600"><Smartphone size={24} /></div>
                 <div className="text-left">
                   <h3 className="font-bold text-gray-800">Aparelhos Antigos ({oldDevices.length} itens)</h3>
-                  <p className="text-sm text-gray-500">Modelos mais simples e econÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â´micos</p>
+                  <p className="text-sm text-gray-500">Modelos mais simples e econÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´micos</p>
                 </div>
               </div>
               <ChevronRight className="text-gray-400 group-hover:text-blue-500" />
@@ -89,7 +89,7 @@ const App = () => {
                 <div className="bg-purple-100 p-3 rounded-xl text-purple-600"><Smartphone size={24} /></div>
                 <div className="text-left">
                   <h3 className="font-bold text-gray-800">Aparelhos Modernos ({newDevices.length} itens)</h3>
-                  <p className="text-sm text-gray-500">LanÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§amentos recentes, com preÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os fixos</p>
+                  <p className="text-sm text-gray-500">LanÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§amentos recentes, com preÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os fixos</p>
                 </div>
               </div>
               <ChevronRight className="text-gray-400 group-hover:text-blue-500" />
@@ -111,18 +111,18 @@ const App = () => {
 
         {flowStep === 'list-old' && (
           <div className="bg-green-50 text-green-700 p-3 rounded-xl mb-5 text-sm font-medium text-center border border-green-200 shadow-sm">
-            Lista de aparelhos mais antigos com preÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os promocionais.
+            Lista de aparelhos mais antigos com preÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os promocionais.
           </div>
         )}
         {flowStep === 'list-new' && (
           <div className="bg-blue-50 text-blue-700 p-3 rounded-xl mb-5 text-sm font-medium text-center border border-blue-200 shadow-sm">
-            Muitos preÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os sÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o fixos. Clique para ver detalhes e entrar em contato.
+            Muitos preÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os sÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£o fixos. Clique para ver detalhes e entrar em contato.
           </div>
         )}
 
-        {/* Frase visÃƒÆ’Ã‚Â­vel imediatamente */}
+        {/* Frase visÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­vel imediatamente */}
         <div className="bg-yellow-100 text-yellow-800 p-3 rounded-xl mb-5 text-sm font-medium text-center border border-yellow-300 shadow-sm">
-          ÃƒÂ°Ã…Â¸Ã¢â‚¬ËœÃ¢â‚¬Â° Deslize para cima para ver o botÃƒÆ’Ã‚Â£o de contato.
+          ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â° Deslize para cima para ver o botÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o de contato.
         </div>
 
         <div className="space-y-3 px-2">
@@ -156,10 +156,10 @@ const App = () => {
           <MessageCircle size={40} />
         </div>
         <h2 className="text-2xl font-bold text-gray-800">Fale Comigo Agora</h2>
-        <p className="text-gray-500 mt-2">DÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âºvidas? OrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§amentos especiais? <br /> Estou online para te atender.</p>
+        <p className="text-gray-500 mt-2">DÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºvidas? OrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§amentos especiais? <br /> Estou online para te atender.</p>
       </div>
       <button
-        onClick={() => openWhatsApp('Atendimento Geral', 'OrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§amento')}
+        onClick={() => openWhatsApp('Atendimento Geral', 'OrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§amento')}
         className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-xl shadow-2xl shadow-green-300 transition-all flex items-center justify-center gap-2 active:scale-[0.98]"
       >
         <Phone size={24} /> <span>(81) 99715-8496</span>
@@ -175,8 +175,8 @@ const App = () => {
           <div className="bg-red-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 text-red-600">
             <Youtube size={40} />
           </div>
-          <h2 className="text-2xl font-bold text-gray-800">ConheÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§a Meu Trabalho</h2>
-          <p className="text-gray-500 mt-2">Visite meu canal no YouTube para ver vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­deos dos serviÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os realizados e garantir sua confianÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§a.</p>
+          <h2 className="text-2xl font-bold text-gray-800">ConheÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§a Meu Trabalho</h2>
+          <p className="text-gray-500 mt-2">Visite meu canal no YouTube para ver vÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­deos dos serviÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os realizados e garantir sua confianÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§a.</p>
         </div>
         <a
           href={youtubeUrl}
@@ -217,7 +217,7 @@ const App = () => {
               
               <div className="border-t border-gray-100 pt-6">
                 <div className="flex justify-between items-center mb-4">
-                  <span className="text-sm text-gray-500 uppercase font-bold">Valor do ServiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§o</span>
+                  <span className="text-sm text-gray-500 uppercase font-bold">Valor do ServiÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§o</span>
                   <span className="text-3xl font-bold text-green-600">{selectedService.price}</span>
                 </div>
                 <button
@@ -225,9 +225,9 @@ const App = () => {
                   className="w-full bg-green-600 text-white px-6 py-4 rounded-xl font-bold hover:bg-green-700 transition-colors flex items-center justify-center gap-2 shadow-xl shadow-green-300 active:scale-[0.98]"
                 >
                   <MessageCircle size={24} />
-                  <span>{selectedService.price.includes('Consultar') || selectedService.price.includes('Chamar') ? 'Solicitar OrÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§amento' : 'Fazer esse desbloqueio'}</span>
+                  <span>{selectedService.price.includes('Consultar') || selectedService.price.includes('Chamar') ? 'Solicitar OrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§amento' : 'Fazer esse desbloqueio'}</span>
                 </button>
-                <p className="text-center text-xs text-gray-400 mt-3">VocÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âª serÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ redirecionado para o WhatsApp</p>
+                <p className="text-center text-xs text-gray-400 mt-3">VocÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âª serÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ redirecionado para o WhatsApp</p>
               </div>
             </div>
           </div>
@@ -240,14 +240,14 @@ const App = () => {
               className={`flex flex-col items-center space-y-1 ${activeTab === 'home' ? 'text-blue-600' : 'text-gray-400'}`}
             >
               <Home size={24} strokeWidth={activeTab === 'home' ? 2.5 : 2} />
-              <span className="text-xs font-medium">InÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­cio</span>
+              <span className="text-xs font-medium">InÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­cio</span>
             </button>
             <button
               onClick={() => setActiveTab('youtube')}
               className={`flex flex-col items-center space-y-1 ${activeTab === 'youtube' ? 'text-blue-600' : 'text-gray-400'}`}
             >
               <Youtube size={24} strokeWidth={activeTab === 'youtube' ? 2.5 : 2} />
-              <span className="text-xs font-medium">VÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­deos dos meus serviÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§os</span>
+              <span className="text-xs font-medium">VÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­deos dos meus serviÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§os</span>
             </button>
             <button
               onClick={() => setActiveTab('contato')}
