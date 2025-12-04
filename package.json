@@ -1,8 +1,7 @@
 {
   "name": "system-unlock-app",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
-  "homepage": "https://zeusfrp-dev.github.io/daercio-system-unlock-pwa",
   "dependencies": {
     "lucide-react": "^0.452.0",
     "react": "^18.3.1",
