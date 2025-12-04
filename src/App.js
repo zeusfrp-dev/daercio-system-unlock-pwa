@@ -72,7 +72,7 @@ const App = () => {
         return (
           <div className="p-4 space-y-6">
             
-            {/* CARD PRINCIPAL (A FRASE QUE PRECISAMOS) */}
+            {/* CARD PRINCIPAL COM A FRASE: Desbloqueio especializado de aparelhos... */}
             {flowStep === 'start' && (
               <div className="bg-blue-600 text-white p-6 rounded-2xl shadow-xl animate-fade-in">
                 <div className="flex items-center space-x-3 mb-3">
