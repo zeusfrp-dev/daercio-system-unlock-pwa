@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   Home, Phone, ChevronRight, Search, X, Lock,
-  ArrowLeft, MessageCircle, Youtube, Loader2, Zap, ShieldCheck
+  ArrowLeft, MessageCircle, Youtube, Loader2, Zap, ShieldCheck, ArrowDown // ArrowDown adicionada
 } from 'lucide-react';
 
 // Dados dos dispositivos e serviços
@@ -116,6 +116,16 @@ const App = () => {
             {/* Renderização do Fluxo */}
             {flowStep === 'start' && (
               <div className="space-y-4">
+                
+                {/* NOVO: INSTRUÇÃO DE SCROLL ADICIONADA AQUI */}
+                <div className="bg-yellow-50 text-yellow-800 p-3 rounded-xl flex items-center justify-center space-x-2 border border-yellow-200 animate-fade-in">
+                    <ArrowDown size={20} className="animate-bounce" />
+                    <p className="text-sm font-medium text-center">
+                        Deslize para cima para ver preços e contato!
+                    </p>
+                </div>
+                {/* FIM: INSTRUÇÃO DE SCROLL */}
+
                 <h2 className="text-xl font-semibold text-gray-700">Principais Serviços</h2>
                 <div className="grid grid-cols-1 gap-4">
                   {initialDevices.slice(3).map(device => ( // Exibe os 3 modernos como destaque
